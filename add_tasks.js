@@ -12,40 +12,48 @@ const db = admin.firestore();
 // Function to read data from CSV and write to Firebase
 async function importDataFromCSV(organisateurIds, filePath) {
   try {
-    organisateurIds.forEach(async (organisateurId) => {
-      const stream = fs.createReadStream(filePath)
-        .pipe(csv())
-        .on('data', async (row) => {
-          // Assuming 'organizer' is the column in your CSV
-          const organizerIdFromCSV = row.organizer;
+    const stream = fs.createReadStream(filePath)
+      .pipe(csv())
+      .on('data', async (row) => {
+        // Assuming 'organizer' is the column in your CSV
+        const organizersFromCSV = row.organizer.split(','); // Split organizers by comma
 
-          // Check if the organizerId from CSV matches the specified organizerId
-          if (organizerIdFromCSV === organisateurId) {
-            const taskData = {
-              checkIn: row.checkIn,
-              day: row.day,
-              description: row.description,
-              // Add other attributes as needed
-            };
+        // Check if any of the organizers from CSV match the specified organizerIds
+        const matchingOrganizers = organizersFromCSV.filter(organizerFromCSV =>
+          organisateurIds.includes(organizerFromCSV.trim())
+        );
 
-            // Write task data to Firebase
-            await db.collection('organisateurs').doc(organisateurId)
+        if (matchingOrganizers.length > 0) {
+          
+          const taskData = {
+            checkIn: row.checkIn.toLowerCase() === 'true',
+            day: parseInt(row.day, 10),
+            description: row.description,
+            start_time : admin.firestore.Timestamp.fromDate(new Date(row.start_time)),
+            end_time : admin.firestore.Timestamp.fromDate(new Date(row.end_time)),
+            title : row.title,
+          };
+
+          // Write task data to Firebase for each matching organizer
+          matchingOrganizers.forEach(async organizerFromCSV => {
+            await db.collection('organisateurs').doc(organizerFromCSV.trim())
               .collection('tasks').add(taskData);
 
-            console.log('Data imported successfully for organizer ID:', organizerIdFromCSV);
-          } else {
-            console.log('Skipped importing data for organizer ID:', organizerIdFromCSV);
-          }
-        })
-        .on('end', () => {
-          console.log(`CSV processing complete for organizer ID: ${organisateurId}`);
-        });
-    });
+            console.log('Data imported successfully for organizer ID:', organizerFromCSV.trim());
+          });
+        } else {
+          console.log('Skipped importing data for organizers:', organizersFromCSV);
+        }
+      })
+      .on('end', () => {
+        console.log('CSV processing complete!');
+      });
+
   } catch (error) {
     console.error('Error importing data:', error);
   }
 }
 
-const organisateurIds = ['1nnRQQneVdeB2T6S4S7gvFoyqN22','4WAiEzNVzYeCTUzJzYOHerzHfHm2']; 
+const organisateurIds = ['1nnRQQneVdeB2T6S4S7gvFoyqN22', '4WAiEzNVzYeCTUzJzYOHerzHfHm2']; 
 const filePath = './tache.csv'; 
 importDataFromCSV(organisateurIds, filePath);
