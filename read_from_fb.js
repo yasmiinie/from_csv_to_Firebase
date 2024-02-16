@@ -31,7 +31,7 @@ const csvWriter = createCsvWriter({
     { id: 'phone', title: 'Phone' },
     { id: 'fullName', title: 'Full Name' },
     { id: 'team', title: 'Team' },
-    // Add more fields as needed
+
   ],
 });
 
