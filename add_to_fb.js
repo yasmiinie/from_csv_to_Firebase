@@ -22,7 +22,7 @@ const eventsCollectionRef = db.collection(eventsCollectionName);
 const specificDocumentRef = eventsCollectionRef.doc(specificDocumentId);
 
 // Path to your CSV file
-const csvFilePath = './partiicipants.csv'; // Replace with the path to your CSV file
+const csvFilePath = './participant_datahack.csv'; // Replace with the path to your CSV file
 
 // Prepare boolean value
 const bool = false;  // Set to false or true as needed

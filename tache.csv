@@ -1,4 +1,36 @@
-name,title,description,start_time,end_time,organizer,checkIn,day
-,title,why are you here,2022-02-16T12:30:00Z,2022-02-16T12:30:00Z,"4WAiEzNVzYeCTUzJzYOHerzHfHm2,1nnRQQneVdeB2T6S4S7gvFoyqN22",TRUE,1
-,title,this is my 2nd,2022-02-16T12:30:00Z,2022-02-16T12:30:00Z,1nnRQQneVdeB2T6S4S7gvFoyqN22,FALSE,1
-,title,al i still here ?,2022-02-16T12:30:00Z,2022-02-16T12:30:00Z,no,TRUE,1
+title,description,start_time,end_time,organizer,checkIn,day
+Réunion,Réunion Equipe Logistique,2024-02-17T06:30:00Z,2024-02-17T06:50:00Z,*,FALSE,1
+Preparation logistique ,Decoration ( à discuter dans la reunion ),2024-02-17T06:50:00Z,2024-02-17T07:45:00Z,"JAtcPwAOcDZr4siZPVpsDeZVwtI3,ZkVxHM8rl2ZkRHiXgzbxvhL2RcA3,t2Gszos4q9P4kRswb4ndMMs8w4q1",FALSE,1
+Preparation logistique ,Emplacement des bannières,2024-02-17T06:50:00Z,2024-02-17T07:45:00Z,"1nnRQQneVdeB2T6S4S7gvFoyqN22,tdMweVQjJZQym236zlLuqtzTtI83",FALSE,1
+Preparation logistique ,"Preparation check-in  ( table, chaises , stickers )",2024-02-17T06:50:00Z,2024-02-17T07:45:00Z,"MDGHkiUVQnXdzVl3wHjbZpEy7DQ2,osX88ZdfRjeYsKwiXaJO0eS4vc42,sCpGAIfiMsSfjA5ltAkWNIubVgr1,rB5mTw6SnKOD5aESPZBHEkf1pZo1",FALSE,1
+Preparation logistique ,Verification Micros & Datashow,2024-02-17T06:50:00Z,2024-02-17T07:45:00Z,"CBeVg9rAfOU0zdt3PPuHldWSXOH2,G4IjNN3YvOVzX4hluVBD8UZSNPO2",FALSE,1
+Preparation logistique ,Preparation des badges,2024-02-17T06:50:00Z,2024-02-17T07:45:00Z,"QM4VfDRAepY5bqsWTmw5FaImrPm2,uncMAVBU8BOoTZFDhQOKFqXtuM62",FALSE,1
+Preparation logistique ,"Preparation de la salle ( les tables, les chaises, les multiprises )",2024-02-17T06:50:00Z,2024-02-17T07:45:00Z,"4WAiEzNVzYeCTUzJzYOHerzHfHm2,QnrGPhWKfBdy9xXzT83uEXByjCY2,xSC9xEdKHGYXliHsTxpBCTHB6v42,mP1NBVbivNdsq2QzzkMVHAxFMPU2",FALSE,1
+Accueil participants,Check in,2024-02-17T07:45:00Z,2024-02-17T08:50:00Z,"JAtcPwAOcDZr4siZPVpsDeZVwtI3,uncMAVBU8BOoTZFDhQOKFqXtuM62,BNMnZS3fFdX7wQWJ4PZP6L6tPeE2,TvP1Ospi42eh3LB2hNF8MPVJOpO2,xSC9xEdKHGYXliHsTxpBCTHB6v42,sCpGAIfiMsSfjA5ltAkWNIubVgr1",TRUE,1
+Accueil participants,Orientation des participants ,2024-02-17T07:45:00Z,2024-02-17T08:50:00Z,"MDGHkiUVQnXdzVl3wHjbZpEy7DQ2,iaM8JiT0X4h9bTRGMRrZs2vF4Tr2",FALSE,1
+Accueil participants,"Distribution (Badges , stickers , ...... ) ",2024-02-17T07:45:00Z,2024-02-17T08:50:00Z,"9VoIQnbPTbNO1OyHYFPbn7FDeUH2,ApAwFk0bXfh8FLE9iijL5vaiUdp1,ZzJVQ3VEZUT8u7qBU7iRU1COxH53",FALSE,1
+Ceremony d'ouverture,Orientation des participants ,2024-02-17T08:50:00Z,2024-02-17T09:20:00Z,"5mOEIH2ytMQP0Q5fjaIWT5horAt2,tdMweVQjJZQym236zlLuqtzTtI83",FALSE,1
+Conference 1,Orientattion ,2024-02-17T09:20:00Z,2024-02-17T09:50:00Z,"76lkus4UcDQZLO9cp5rjYz38jjE3,EsbKvOFw3dczI4zclN4QKpFIW0J2,QM4VfDRAepY5bqsWTmw5FaImrPm2,BNMnZS3fFdX7wQWJ4PZP6L6tPeE2,76lkus4UcDQZLO9cp5rjYz38jjE3",FALSE,1
+Conference 1,Verification des besoins des conferenciers,2024-02-17T09:20:00Z,2024-02-17T09:50:00Z,"Mdka5FFC9Nd0QNjCHeLd9yDn0If1,uz1gGLXXbZftBtrXQOIMVwPRmrh2",FALSE,1
+Conference 1,Verification des besoins des participants,2024-02-17T09:20:00Z,2024-02-17T09:50:00Z,"5mOEIH2ytMQP0Q5fjaIWT5horAt2,S2gBB3gWm2PBDOhUNeQVa5WSPD02,ZzJVQ3VEZUT8u7qBU7iRU1COxH53,tdMweVQjJZQym236zlLuqtzTtI83",FALSE,1
+Conference 2,Orientattion ,2024-02-17T09:50:00Z,2024-02-17T10:10:00Z,"ApAwFk0bXfh8FLE9iijL5vaiUdp1,G4IjNN3YvOVzX4hluVBD8UZSNPO2,TvP1Ospi42eh3LB2hNF8MPVJOpO2",FALSE,1
+Conference 2,Verification des besoins des conferenciers,2024-02-17T09:50:00Z,2024-02-17T10:10:00Z,"1nnRQQneVdeB2T6S4S7gvFoyqN22,5Zq7eBrtroaiJvzrHltMH1f2mNx1",FALSE,1
+Conference 2,Verification des besoins des participants,2024-02-17T09:50:00Z,2024-02-17T10:10:00Z,"EsbKvOFw3dczI4zclN4QKpFIW0J2,MDGHkiUVQnXdzVl3wHjbZpEy7DQ2,QM4VfDRAepY5bqsWTmw5FaImrPm2",FALSE,1
+Pause déjeuner,Préparation et distribution des repas,2024-02-17T10:10:00Z,2024-02-17T11:20:00Z,"1K2CydQzirNpJaYUGz18McHmySl2,5mOEIH2ytMQP0Q5fjaIWT5horAt2,G4IjNN3YvOVzX4hluVBD8UZSNPO2",FALSE,1
+Pause déjeuner,Orientation des participants,2024-02-17T10:10:00Z,2024-02-17T11:20:00Z,"mMKYbVsZJaXVU7Kjwyy1qGhLfDE2,BNMnZS3fFdX7wQWJ4PZP6L6tPeE2",FALSE,1
+Pause déjeuner,"Distribution des repas pour les mentors , les conferenciers , sponsor & yucca",2024-02-17T10:10:00Z,2024-02-17T11:20:00Z,"1nnRQQneVdeB2T6S4S7gvFoyqN22,4WAiEzNVzYeCTUzJzYOHerzHfHm2,JAtcPwAOcDZr4siZPVpsDeZVwtI3,bZL93VgcdYRMcyTqvf7uBhMG9Gg2,xSC9xEdKHGYXliHsTxpBCTHB6v42,sCpGAIfiMsSfjA5ltAkWNIubVgr1,JAtcPwAOcDZr4siZPVpsDeZVwtI3",TRUE,1
+Pause déjeuner,Nettoyage (Après la pause),2024-02-17T10:10:00Z,2024-02-17T11:20:00Z,"ApAwFk0bXfh8FLE9iijL5vaiUdp1,QM4VfDRAepY5bqsWTmw5FaImrPm2,QnrGPhWKfBdy9xXzT83uEXByjCY2",FALSE,1
+Workshop,Orientation des participants,2024-02-17T11:20:00Z,2024-02-17T14:00:00Z,"mMKYbVsZJaXVU7Kjwyy1qGhLfDE2,BNMnZS3fFdX7wQWJ4PZP6L6tPeE2",FALSE,1
+Workshop,Rester au près des participants et  verifier leurs besoins  (12:20 PM --> 15:30 PM),2024-02-17T11:20:00Z,2024-02-17T14:00:00Z,"4WAiEzNVzYeCTUzJzYOHerzHfHm2,76lkus4UcDQZLO9cp5rjYz38jjE3,CBeVg9rAfOU0zdt3PPuHldWSXOH2,SIw65aI8noa7xx8u3hE4R1fj7dM2,76lkus4UcDQZLO9cp5rjYz38jjE3",FALSE,1
+Workshop,Distribution des multiprises,2024-02-17T11:20:00Z,2024-02-17T14:00:00Z,"1K2CydQzirNpJaYUGz18McHmySl2,ZzJVQ3VEZUT8u7qBU7iRU1COxH53,uz1gGLXXbZftBtrXQOIMVwPRmrh2",FALSE,1
+Workshop,Verification des besoins des mentors,2024-02-17T11:20:00Z,2024-02-17T14:00:00Z,"Dr7JZBtRX9WDnkTOI4GoK03C4bm1,Mdka5FFC9Nd0QNjCHeLd9yDn0If1,sCpGAIfiMsSfjA5ltAkWNIubVgr1",FALSE,1
+Cérémonie de cloture,"Preparation de la salle [ Ajustement des chaises, tables ] [ décoration] [Vérification des micros & Datashow] ",2024-02-17T14:00:00Z,2024-02-17T14:50:00Z,"SIw65aI8noa7xx8u3hE4R1fj7dM2,bZL93VgcdYRMcyTqvf7uBhMG9Gg2",FALSE,1
+Cérémonie de cloture,Orientation des participant,2024-02-17T14:00:00Z,2024-02-17T14:50:00Z,*,FALSE,1
+Cérémonie de cloture,Verifier les bannieres,2024-02-17T14:00:00Z,2024-02-17T14:50:00Z,"76lkus4UcDQZLO9cp5rjYz38jjE3,mMKYbVsZJaXVU7Kjwyy1qGhLfDE2,osX88ZdfRjeYsKwiXaJO0eS4vc42,t2Gszos4q9P4kRswb4ndMMs8w4q1",FALSE,1
+Pause Café,Préparation et distribution des repas,2024-02-17T14:50:00Z,2024-02-17T16:00:00Z,"HtiKgKHkyiTRJoPWL9q6Jo8dn7n2,ZzJVQ3VEZUT8u7qBU7iRU1COxH53",FALSE,1
+Pause Café,Orientation des participants,2024-02-17T14:50:00Z,2024-02-17T16:00:00Z,"ApAwFk0bXfh8FLE9iijL5vaiUdp1,ZkVxHM8rl2ZkRHiXgzbxvhL2RcA3,ZkVxHM8rl2ZkRHiXgzbxvhL2RcA3",FALSE,1
+Pause Café,"Distribution des repas pour les mentors , les conferenciers sponsor & yucca ",2024-02-17T14:50:00Z,2024-02-17T16:00:00Z,"1nnRQQneVdeB2T6S4S7gvFoyqN22,Dr7JZBtRX9WDnkTOI4GoK03C4bm1,bZL93VgcdYRMcyTqvf7uBhMG9Gg2",FALSE,1
+Pause Café,Nettoyage ,2024-02-17T14:50:00Z,2024-02-17T16:00:00Z,"1K2CydQzirNpJaYUGz18McHmySl2,t2Gszos4q9P4kRswb4ndMMs8w4q1,uncMAVBU8BOoTZFDhQOKFqXtuM62,uz1gGLXXbZftBtrXQOIMVwPRmrh2",FALSE,1
+Nettoyage ,Desinstallation des Bannieres,2024-02-17T16:00:00Z,2024-02-17T18:00:00Z,*,FALSE,1
+Nettoyage ,Nettoyage,2024-02-17T16:00:00Z,2024-02-17T18:00:00Z,*,FALSE,1
+Nettoyage ,"Enlever décoration, rallonges et matériel de toutes les salles",2024-02-17T16:00:00Z,2024-02-17T18:00:00Z,*,FALSE,1
